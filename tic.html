@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <!--CSS file included-->
+    <link rel="stylesheet" href="tic.css">
+    <!--JS file included-->
+    <script src="tic.js" defer ></script>
+</head>
+<body> 
+    <h1 style="text-align:center; font-family: cursive;background-color:rgb(121, 117, 117); text-size-adjust: size 200px;"><em>TIC-TAC-TOE</em></h1>
+  
+    <div class="board " id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="game-start" id="gameStart">
+        <div data-game-start>Let's Start</div>
+        <button id="startButton;"><h3>STARt</h3></button>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-winning-message-text></div>
+        <button id="restartButton" onclick="restart()"><h3>restart</h3></button>
+    </div>
+    
+</body>
+</html>
